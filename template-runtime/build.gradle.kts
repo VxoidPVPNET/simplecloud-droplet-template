@@ -4,7 +4,7 @@ plugins {
 }
 
 dependencies {
-    implementation(project(":template-shared"))
+    api(project(":template-shared"))
     implementation(libs.bundles.jooq)
     implementation(libs.postgresql.jdbc)
     implementation(libs.bundles.log4j)
